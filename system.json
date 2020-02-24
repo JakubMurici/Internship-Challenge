@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "interesting findings",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "analytics",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "ecabfbe40bfad5b8b6d8bfac8fe801",
+    "system_secret": ""
+}
