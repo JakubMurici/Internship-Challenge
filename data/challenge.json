@@ -1,0 +1,16 @@
+{
+    "items": [],
+    "name": "challenge",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "percentage",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
