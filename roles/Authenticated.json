@@ -1,0 +1,72 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 7
+        },
+        "AllServices": {
+            "Level": 7
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "AverageCPU"
+            },
+            {
+                "Level": 1,
+                "Name": "resetAverages"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "Items": [],
+                "Level": 15,
+                "Name": "challenge"
+            }
+        ],
+        "Deployments": {
+            "Level": 7
+        },
+        "DevicesList": {
+            "Level": 7
+        },
+        "EdgesList": {
+            "Level": 7
+        },
+        "ManageUsers": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 1
+        },
+        "Portals": [],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 5
+        },
+        "ServiceCaches": [],
+        "Timers": {
+            "Level": 7
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "analytics"
+            },
+            {
+                "Level": 3,
+                "Name": "CPU-Usage"
+            }
+        ],
+        "Triggers": {
+            "Level": 7
+        },
+        "UsersList": {
+            "Level": 7
+        }
+    }
+}
