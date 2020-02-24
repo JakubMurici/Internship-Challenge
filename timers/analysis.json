@@ -1,0 +1,8 @@
+{
+    "description": "Publishes CPU average every minute",
+    "frequency": 60,
+    "name": "analysis",
+    "repeats": -1,
+    "service_name": "AverageCPU",
+    "start_time": "2020-02-24T05:13:58.996Z"
+}
