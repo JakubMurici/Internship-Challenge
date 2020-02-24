@@ -1,0 +1,81 @@
+{
+    "Description": "Default role that is applied to a user who has rights to everything",
+    "Name": "Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllServices": {
+            "Level": 15
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "AverageCPU"
+            },
+            {
+                "Level": 1,
+                "Name": "TryToCatch"
+            },
+            {
+                "Level": 1,
+                "Name": "resetAverages"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "Items": [],
+                "Level": 15,
+                "Name": "challenge"
+            }
+        ],
+        "Deployments": {
+            "Level": 15
+        },
+        "DevicesList": {
+            "Level": 15
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "ManageUsers": {
+            "Level": 5
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "UserManagement"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 15
+        },
+        "ServiceCaches": [],
+        "Timers": {
+            "Level": 15
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "CPU-Usage"
+            },
+            {
+                "Level": 3,
+                "Name": "analytics"
+            }
+        ],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 15
+        }
+    }
+}
