@@ -1,0 +1,16 @@
+{
+    "didLastUpdateError": false,
+    "id": "323168f0-345c-4f11-9993-831ed5c84aed",
+    "name": "SelectedUserAndRoles",
+    "settings": {
+        "DATASOURCE_PARSER": "/**\n* The 'parser' variable is the entry point for your parser. Write logic inside of the provided function and return a value\n* Constants and utility functions can be created outside of the parser\n* The provided ctx parameter is an object that contains data and model information on this item\n* @param {context} ctx \n* @returns {rtn} */\nparser = (ctx) =\u003e {\n  return ctx.data\n}",
+        "USE_PARSER": false,
+        "datasources": [
+            "634261c9-dbbd-4770-b00e-ff822e8139c8",
+            "1469a79c-8494-4ec0-ac8d-30e1944af515",
+            "0b050e7c-4f7b-4eda-af4f-266903cf96a5",
+            "a6e1f2c2-e436-4610-aa6c-ae7ad72045fc"
+        ]
+    },
+    "type": "DATASOURCE_AGGREGATOR"
+}
