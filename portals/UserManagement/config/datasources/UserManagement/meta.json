@@ -1,0 +1,18 @@
+{
+    "didLastUpdateError": false,
+    "id": "be94677a-3c79-4830-9b8e-8b6a26a456ec",
+    "lastDataSent": {
+        "changes": {
+            "roles": {
+                "add": [],
+                "delete": [
+                    "Anonymous"
+                ]
+            }
+        },
+        "user": "8ab4f9e10bf0bbb2cfeeb4f89e3f"
+    },
+    "name": "UserManagement",
+    "settings": {},
+    "type": "CB_USER_MANAGEMENT"
+}
