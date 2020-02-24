@@ -1,0 +1,447 @@
+{
+    "HAS_UNIQUE_STYLE": false,
+    "buttonColor": "#007bff",
+    "buttonGroupColor": "#007bff",
+    "cardBackgroundColor": "#ffffff",
+    "displayColumn": "name",
+    "editColumns": {
+        "changePassword": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "password",
+            "key": "63ac7a8b-2e18-4e59-8378-ef92893ae2cd",
+            "label": "Change Password",
+            "layout": {
+                "lg": {
+                    "h": 5,
+                    "i": "changePassword",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 30,
+                    "x": 0,
+                    "y": 29
+                },
+                "md": {
+                    "h": 6,
+                    "i": "changePassword",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 7,
+                    "x": 0,
+                    "y": 5
+                },
+                "sm": {
+                    "h": 6,
+                    "i": "changePassword",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 5,
+                    "x": 0,
+                    "y": 5
+                },
+                "xl": {
+                    "h": 5,
+                    "i": "changePassword",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 15
+                },
+                "xs": {
+                    "h": 4,
+                    "i": "changePassword",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 4,
+                    "x": 0,
+                    "y": 10
+                },
+                "xxs": {
+                    "h": 5,
+                    "i": "changePassword",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 15
+                }
+            },
+            "name": "changePassword",
+            "orderIdx": 5
+        },
+        "email": {
+            "dataType": "string",
+            "display": true,
+            "dropdownOptions": [
+                "technician",
+                "engineer",
+                "manager"
+            ],
+            "inputType": "typeAhead",
+            "key": "afd6c6e6-3917-4099-9e3d-68d7e878568d",
+            "label": "Email",
+            "layout": {
+                "lg": {
+                    "h": 5,
+                    "i": "email",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 30,
+                    "x": 0,
+                    "y": 34
+                },
+                "md": {
+                    "h": 5,
+                    "i": "email",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "sm": {
+                    "h": 5,
+                    "i": "email",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 6,
+                    "x": 0,
+                    "y": 0
+                },
+                "xl": {
+                    "h": 5,
+                    "i": "email",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 9
+                },
+                "xs": {
+                    "h": 5,
+                    "i": "email",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 12,
+                    "x": 0,
+                    "y": 0
+                },
+                "xxs": {
+                    "h": 5,
+                    "i": "email",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 9
+                }
+            },
+            "name": "email",
+            "orderIdx": 3
+        },
+        "f_name": {
+            "dataType": "string",
+            "display": true,
+            "inputType": "text",
+            "key": "3f4eeddd-3917-4099-9e3d-68d7e878568d",
+            "label": "First Name",
+            "layout": {
+                "lg": {
+                    "h": 5,
+                    "i": "f_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 30,
+                    "x": 0,
+                    "y": 0
+                },
+                "md": {
+                    "h": 5,
+                    "i": "f_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 7,
+                    "x": 7,
+                    "y": 0
+                },
+                "sm": {
+                    "h": 5,
+                    "i": "f_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 6,
+                    "x": 6,
+                    "y": 0
+                },
+                "xl": {
+                    "h": 5,
+                    "i": "f_name",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 3
+                },
+                "xs": {
+                    "h": 5,
+                    "i": "f_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 5,
+                    "x": 0,
+                    "y": 5
+                },
+                "xxs": {
+                    "h": 5,
+                    "i": "f_name",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 3
+                }
+            },
+            "name": "f_name",
+            "orderIdx": 1
+        },
+        "l_name": {
+            "dataType": "string",
+            "display": true,
+            "errorText": "Must be a valid email",
+            "inputType": "text",
+            "key": "cfd6c6e6-85c4-45e3-b62f-df232434fa2c",
+            "label": "Last Name",
+            "layout": {
+                "lg": {
+                    "h": 5,
+                    "i": "l_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 30,
+                    "x": 0,
+                    "y": 5
+                },
+                "md": {
+                    "h": 5,
+                    "i": "l_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 7,
+                    "x": 14,
+                    "y": 0
+                },
+                "sm": {
+                    "h": 5,
+                    "i": "l_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 6,
+                    "x": 12,
+                    "y": 0
+                },
+                "xl": {
+                    "h": 5,
+                    "i": "l_name",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 6
+                },
+                "xs": {
+                    "h": 5,
+                    "i": "l_name",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 5,
+                    "x": 5,
+                    "y": 5
+                },
+                "xxs": {
+                    "h": 5,
+                    "i": "l_name",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            "name": "l_name",
+            "orderIdx": 2,
+            "required": false,
+            "validationType": ""
+        },
+        "roles": {
+            "arrayFields": {
+                "Name": {
+                    "dataType": "string",
+                    "display": true,
+                    "key": "name",
+                    "label": "Name",
+                    "layout": {
+                        "lg": {
+                            "h": 5,
+                            "i": "Name",
+                            "minH": 3,
+                            "w": 10,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "md": {
+                            "h": 5,
+                            "i": "Name",
+                            "minH": 3,
+                            "w": 8,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "sm": {
+                            "h": 5,
+                            "i": "Name",
+                            "minH": 3,
+                            "w": 6,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "xl": {
+                            "h": 5,
+                            "i": "Name",
+                            "minH": 3,
+                            "w": 12,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "xs": {
+                            "h": 5,
+                            "i": "Name",
+                            "minH": 3,
+                            "moved": false,
+                            "static": false,
+                            "w": 4,
+                            "x": 0,
+                            "y": 0
+                        },
+                        "xxs": {
+                            "h": 5,
+                            "i": "Name",
+                            "minH": 3,
+                            "w": 2,
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "name": "Name"
+                }
+            },
+            "dataType": "string",
+            "display": true,
+            "dropdownOptions": [],
+            "initialNumArrayItems": 1,
+            "inputType": "MULTI_TYPE_AHEAD_TYPE",
+            "key": "91f93194-993a-4fa5-b111-db4e08fd8162",
+            "label": "Roles",
+            "layout": {
+                "lg": {
+                    "h": 19,
+                    "i": "roles",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 30,
+                    "x": 0,
+                    "y": 10
+                },
+                "md": {
+                    "h": 7,
+                    "i": "roles",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 24,
+                    "x": 0,
+                    "y": 11
+                },
+                "sm": {
+                    "h": 6,
+                    "i": "roles",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 15,
+                    "x": 0,
+                    "y": 11
+                },
+                "xl": {
+                    "h": 19.5,
+                    "i": "roles",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                },
+                "xs": {
+                    "h": 19.5,
+                    "i": "roles",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 12,
+                    "x": 0,
+                    "y": 14
+                },
+                "xxs": {
+                    "h": 19.5,
+                    "i": "roles",
+                    "minH": 3,
+                    "w": 36,
+                    "x": 0,
+                    "y": 12
+                }
+            },
+            "name": "roles",
+            "orderIdx": 4
+        }
+    },
+    "eventTarget": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "outgoing_parser": {
+            "isDebugOn": false
+        },
+        "value": "./parsers/eventTarget/outgoing_parser/index.js"
+    },
+    "fontColor": "#000000",
+    "isReadOnly": false,
+    "listSource": {
+        "dataType": "DYNAMIC_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "id": "323168f0-345c-4f11-9993-831ed5c84aed",
+        "incoming_parser": {
+            "isDebugOn": false,
+            "value": "./parsers/listSource/incoming_parser/index.js"
+        }
+    },
+    "noDataText": "Please select a user",
+    "sliderColor": "#007bff",
+    "submitText": "Submit",
+    "successNotificationText": "Form Submitted!",
+    "titleColor": "#000000",
+    "toggleColor": "#007bff",
+    "typeaheadColor": "#007bff"
+}
